@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Two small, independently runnable terminal tasks: a Python change and an HTTP outcome.">
+  <title>Taskroom — Terminal task catalog</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="#">taskroom<span class="brand-dot">.</span></a><span class="edition">ADZZAT LABS / ENGINEERING SAMPLE</span></header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">THE TASK COLLECTION <span>01 — 02</span></p>
+      <h1 id="page-title">Small tasks.<br><span>Observable results.</span></h1>
+      <p class="lede">Two focused challenges for the terminal. Explore the brief, understand the environment, and work toward a verifiable result.</p>
+      <div class="collection-meta"><span>02 tasks</span><span>Python + HTTP</span><span>Docker packaged</span></div>
+    </section>
+    <div id="status" role="status">Loading task collection…</div>
+    <section class="workspace" aria-label="Task browser" hidden id="workspace">
+      <aside><div class="section-label">COLLECTION <span>2 ITEMS</span></div><nav id="task-list" aria-label="Tasks"></nav><p class="aside-note">One language-driven change.<br>One outcome-driven challenge.</p></aside>
+      <article id="detail" aria-labelledby="task-title" tabindex="-1">
+        <div class="detail-top"><span id="task-id" class="eyebrow"></span><span id="difficulty" class="badge"></span></div>
+        <p id="kind" class="kind"></p><h2 id="task-title"></h2>
+        <section><h3>Statement</h3><div id="statement" class="prose"></div></section>
+        <section class="environment"><h3>Environment</h3><p id="environment"></p></section>
+        <section><h3>Difficulty note</h3><p id="difficulty-note"></p></section>
+      </article>
+    </section>
+  </main>
+  <footer><span>Built to be small. Designed to be checked.</span><span>TERMINAL-BENCH STYLE / 2026</span></footer>
+</body>
+</html>

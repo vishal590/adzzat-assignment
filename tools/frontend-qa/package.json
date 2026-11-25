@@ -1,0 +1,13 @@
+{
+  "name": "taskroom-frontend-qa",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Optional DOM behavior checks; not an application runtime dependency",
+  "scripts": {
+    "test": "node check.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "playwright-core": "1.65.1"
+  }
+}
